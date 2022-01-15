@@ -1,38 +1,166 @@
-.App {
+
+
+/* .Home{
+  background-color: #FFEBCC;
+  width: '100px';
+  height: '100px'
+} */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dancing+Script&family=Lato&family=Pacifico&family=Vollkorn:ital@1&display=swap');
+
+.App{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Vollkorn', serif;
+
+}
+
+.ShopName{
   text-align: center;
+  margin-top: 50px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ShopImg{
+  width: 410px;
+  height: 455px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.log-in{
+  position: absolute;
+  bottom:110px;
+  right: 220px;
+  background-color: black;
+  /* color: #DCDCDC; */
+  color:#D3E4CD ;
+  font-size: 15px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
 }
+.aboutShop{
+  max-width: 450px;
+  text-align: center;
+  background-color: #D3E4CD;
+  font-size: 20px;
+  padding: 50px;
+  margin-top: 0;
+  height: 356px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+   
+
+}
+.about{
+  margin: 40px;;
+  
   display: flex;
-  flex-direction: column;
+  justify-content: center
+}
+
+
+
+.navLinks {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  list-style: none;
+  font-size: 18px; 
+}
+.link{
+  text-decoration: none;
+  
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+  display: flex;
+  /* justify-content:space-around; */
+  /* align-items: center; */
+  min-height: 10vh;
+  background: black;
+  color: lightgrey;
+  margin-bottom: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.images{
+  width: 150px;
+  height: 200px;
+  /* margin-bottom: 0px; */
+
+}
+.cloth{
+  float:left;
+  margin: 70px 40px;
+  text-align: center;
+  display: table-cell;
+
+  
+
+}
+
+.name{
+  max-width: 190px;
+  margin-top: 0px;
+
+  /* font-size: 5px; */
+}
+
+.search{
+  display: block;
+  margin:auto;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  background-color:black;
+  border-radius: 50px;
+  border-color: transparent;
+  color: #D3E4CD;
+
+}
+.iconSearch{
+  position: absolute;
+  margin-top: 15px;
+  margin-left:752px ;
+  color: #D3E4CD;
+
+}
+.MoreImage{
+  width: 350px;
+  height: 400px;
+  /* display: inline; */
+  /* margin-top: 100px; */
+  margin-left: 150px;
+
+}
+.Details{
+
+  text-align: center;
+  display: inline-block;
+  /* margin-top: 50px; */
+  margin-left: 200px;
+  background-color: #D3E4CD;
+ width: 500px;
+}
+
+.description{
+  max-width: 400px;
+  padding-left: 60px;
+
+}
+.More-inf{
+  text-decoration: none;
+ 
+  display: block;
+  margin-top: 20px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #D3E4CD;
+  color: black;
+
+}
+.contact-us{
+  margin-top: 100px;
+  text-align: center;
 }
