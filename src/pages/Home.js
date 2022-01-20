@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, Routes,Link } from "react-router-dom";
 function Home(){
     return (
         <div className="App" >
-           <Router> 
+           {/* <Router>  */}
             <h1 className='ShopName'>scissors shop  <FaCut/></h1>
             <div className="about">
                 <img  className='ShopImg' src='https://i.pinimg.com/564x/9f/29/40/9f29402359a5d962bc0252469533e185.jpg'/>
@@ -24,10 +24,10 @@ function Home(){
                 {/* <button className="log-in" ><Link to="">Blogs</Link></button> */}
                 {/* <button type="button" onClick={()=>{navigate("/log")}}>Log in</button> */}
             </div>
-            <Routes>
-              <Route path="/log" element={<LogIn />} />
-            </Routes> 
-          </Router> 
+             {/* <Routes>
+             <Route path="/log" element={<LogIn />} />
+             </Routes> 
+             </Router>  */}
          
     
          

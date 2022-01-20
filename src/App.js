@@ -11,17 +11,18 @@ function App() {
       <Helmet>
         <style>{'body {  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.034), rgb(211, 119, 119));}'}</style>
       </Helmet> 
-    <Router>
+      
+    {/* <Router>
       <div className="App">
         <Routes>
           <Route path="/" element={<Home/>}/>
 
         </Routes>
       </div>
-    </Router>
+    </Router> */}
 
       
-      {/* <LogIn/> */}
+      <LogIn/>
       {/* <Home/> */}
       
 
